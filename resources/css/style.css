@@ -2,6 +2,8 @@ body{
     background-color:#000;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(85,85,85,1) 100%);
+
 }
 
 /* HEADINGS */
@@ -28,6 +30,11 @@ body{
 .link--cta{
     font-size:16px;
     color:aquamarine;
+}
+
+.link--cta:hover{
+    transition: color 2s linear 0s;
+    color:yellow;
 }
 
 /* FOOTER */
